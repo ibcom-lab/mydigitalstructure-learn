@@ -98,10 +98,12 @@ function main(err, data)
 					data
 				])
 			}
+
+			return 'This is return; ' + param.hello
 		}
 	});
 
-	mydigitalstructure.invoke(
+	var example2Return = mydigitalstructure.invoke(
 	'learn-example-2-show-session',
 	{
 		hello: 'LEARN-EXAMPLE #2; mydigitalstructure.cloud session object:'
