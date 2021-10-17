@@ -165,7 +165,7 @@ function main(err, data)
 			name: 'learn-example-4-mydigitalstructure.cloud-retrieve-contacts',
 			code: function (param)
 			{
-				mydigitalstructure.cloud.retrieve(
+				mydigitalstructure.cloud.search(
 				{
 					object: 'contact_person',
 					fields:
@@ -277,7 +277,7 @@ function main(err, data)
 			name: 'learn-example-6-mydigitalstructure.cloud-retrieve-contacts',
 			code: function (param)
 			{
-				mydigitalstructure.cloud.retrieve(
+				mydigitalstructure.cloud.search(
 				{
 					object: 'contact_person',
 					fields:
