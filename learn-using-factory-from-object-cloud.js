@@ -125,7 +125,7 @@ function main(err, data)
                         ],
                         filters: filters,
                         all: true,
-                        callback: ''util-factory-load-from-cloud',
+                        callback: 'util-factory-load-from-cloud',
                         callbackParam: param
                     });
                 }
@@ -180,7 +180,7 @@ function main(err, data)
         {
             mydigitalstructure.invoke('util-factory-load-from-cloud',
             {
-                automationTitle: 'Learn Automation Example'
+                automationTitle: 'Learn Automation Example',
                 controllerName: 'learn-automation-example-hello-world'
             });
         }
