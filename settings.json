@@ -1,9 +1,9 @@
 {
 	"mydigitalstructure":
 	{
-		"hostname": "api.mydigitalstructure.com", 
+		"hostname": "api.mydigitalstructure.cloud", 
 		"logon": "example-learn@mydigitalstructure.cloud", 
-		"password": "Ex@mpl1987!-", 
+		"password": "", 
 		"email": "support@mydigitalstructure.cloud",
 		"testing": 
 		{
