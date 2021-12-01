@@ -17,9 +17,9 @@ var moment = require('moment');
 
 	All functions invoked on mydigitalstructure.cloud (remote) are asynchronous, 
 	in that the local code will keep running after the invoke and you need to
-	use a callcack: controller to handle the response from mydigitalstructure.cloud, as in examples 5 & 5 below.	
+	use a callcack: to a controller to handle the response from mydigitalstructure.cloud, as in examples 5 & 5 below.	
 
-	To get the current logged on user using mydigitalstructure.cloud.invoke({method: 'core_get_user_details'}),
+	To get the current logged on user, use mydigitalstructure.cloud.invoke({method: 'core_get_user_details'}),
 
 	To get the settings.json data:
 
@@ -486,3 +486,14 @@ function main(err, data)
 		}
 	])
 }
+
+/*
+	[LEARN MORE]
+
+	Authentication:
+	https://docs.mydigitalstructure.cloud/gettingstarted_authentication
+
+	If you want to pass the data as application/JSON then you need to use the "auth-" http headers.
+	- "auth-sid" = "sid"
+	- "auth-logonkey" = "logonkey"
+*/
