@@ -290,7 +290,7 @@ function main(err, data)
 					[],
 					callback: 'learn-example-6-mydigitalstructure.cloud-retrieve-contacts-show',
 					all: true,
-					rows: 1
+					rows: 10
 				});
 			}
 		},
